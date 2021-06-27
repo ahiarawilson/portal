@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
-    response.json({creatot: "Engr. Ahiara Wilson"});
+    response.json({created: "Engr. Ahiara Wilson"});
 });
 
 // Get the port variable
