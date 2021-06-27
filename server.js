@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
-    response.send('You made a request to index');
+    response.json({creatot: "Engr. Ahiara Wilson"});
 });
 
 // Get the port variable
