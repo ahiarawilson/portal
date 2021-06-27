@@ -8,6 +8,10 @@ app.get('/', (request, response) => {
     response.json({created: "Engr. Ahiara Wilson"});
 });
 
+app.get('/request', (request, response) => {
+    response.json({request});
+});
+
 // Get the port variable
 const PORT = process.env.PORT || 5000;
 
